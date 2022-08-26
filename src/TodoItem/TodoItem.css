@@ -1,0 +1,43 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+li > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li > div > p {
+    font-size: 1.6rem;
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.Icon-delete {
+    color: red;
+    cursor: pointer;
+}
+
+.Icon-check {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #39AEA9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
+
+.Icon-check--active {
+    background-color: #39AEA9;
+}

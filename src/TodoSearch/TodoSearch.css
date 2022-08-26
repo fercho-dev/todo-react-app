@@ -1,0 +1,11 @@
+.TodoSearch {
+    border: none;
+    background-color: #A2D5AB;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 24px;
+    padding-left: 10px;
+    outline: 0;
+}
