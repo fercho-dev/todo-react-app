@@ -9,3 +9,7 @@
     padding-left: 10px;
     outline: 0;
 }
+
+.TodoSearch:disabled {
+    opacity: 25%;
+}
