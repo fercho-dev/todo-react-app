@@ -12,7 +12,7 @@ import { TodoForm } from "../TodoForm"
 import { TodosLoading } from "../TodosLoading"
 import { EmptyTodos } from "../EmptyTodos"
 import { TodoHeader } from "../TodoHeader";
-import { ChangeAlertWithStorageListener } from "../ChangeAlert";
+import { ChangeAlert } from "../ChangeAlert";
 
 // const defaultTodos = [
 //   {text: 'cortar cebolla', completed: false},
@@ -100,7 +100,7 @@ function App(props) {
                     setOpenModal={setOpenModal}
                 />
 
-                <ChangeAlertWithStorageListener
+                <ChangeAlert
                     sincronize={sincronizeTodos}
                 />
             </React.Fragment>
